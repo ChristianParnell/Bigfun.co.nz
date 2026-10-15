@@ -9,9 +9,9 @@ Complete static website. No npm, build tool, API key or paid hosting required. Y
 4. Do not move launch/CNAME into the root during testing. The launch folder contains optional production configuration.
 
 ## IMPORTANT: activate email delivery before accepting real enquiries
-The form sends a native HTTPS POST through FormSubmit to kaya.boet1es@gmail.com. This works with GitHub Pages, which cannot send email itself. Native submission keeps FormSubmit's CAPTCHA verification and automatic customer response enabled.
+The form sends a native HTTPS POST through FormSubmit to bob@bigfun.co.nz. This works with GitHub Pages, which cannot send email itself. Native submission keeps FormSubmit's CAPTCHA verification and automatic customer response enabled.
 1. Submit one clearly labelled TEST enquiry from the published Pages URL. Complete the provider's verification.
-2. Open the activation email sent to kaya.boet1es@gmail.com and click its confirmation link. Check spam if needed. An activation step is required by FormSubmit; this ZIP cannot complete inbox verification.
+2. Open the activation email sent to bob@bigfun.co.nz and click its confirmation link. Check spam if needed. An activation step is required by FormSubmit; this ZIP cannot complete inbox verification.
 3. Submit a NEW test enquiry after activation. Check that the formatted table email arrives, all selected details are present and Reply replies to the enquirer.
 4. Test both Event hire and Permanent placement. Check the website, requirements and proposed venue percentage arrive. Test the customer confirmation using an email account you own. FormSubmit controls delivery and filtering; if no email arrives, do not launch until resolved.
 5. FormSubmit provides a private endpoint token after activation if you want to hide the destination email in the form action. Replace the form action with that endpoint, leaving the contact links unchanged unless you also want a different public email.

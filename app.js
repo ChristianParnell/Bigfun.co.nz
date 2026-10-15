@@ -35,7 +35,7 @@ document.querySelectorAll('[data-gallery]').forEach(button => button.addEventLis
 function enquiryEntries() {return [...new FormData(form).entries()].filter(([k,v]) => !k.startsWith('_') && k !== 'Consent' && String(v).trim());}
 function enquiryText() {
  const entries = enquiryEntries();
- return 'BIGFUN — PHOTOBOOTH ENQUIRY\n' + 'Prepared: ' + new Date().toLocaleString('en-NZ') + '\n\n' + entries.map(([k,v]) => `${k === 'email' ? 'Email address' : k}: ${v}`).join('\n\n') + '\n\nPrivacy consent: agreed\n\nThis is an enquiry only, not a confirmed booking.\nBigFun | kaya.boet1es@gmail.com';
+ return 'BIGFUN — PHOTOBOOTH ENQUIRY\n' + 'Prepared: ' + new Date().toLocaleString('en-NZ') + '\n\n' + entries.map(([k,v]) => `${k === 'email' ? 'Email address' : k}: ${v}`).join('\n\n') + '\n\nPrivacy consent: agreed\n\nThis is an enquiry only, not a confirmed booking.\nBigFun | bob@bigfun.co.nz';
 }
 document.querySelector('#review').addEventListener('click', () => {
  if(!form.reportValidity()) return;
